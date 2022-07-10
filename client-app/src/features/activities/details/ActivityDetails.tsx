@@ -6,7 +6,6 @@ interface Props{
     activity: Activity;
     cancelSelectActivity: () => void;
     openForm: (id: string) => void;
-
 }
 
 export default function ActivityDetails({activity, cancelSelectActivity, openForm}: Props){
