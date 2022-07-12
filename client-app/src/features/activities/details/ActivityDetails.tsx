@@ -31,23 +31,5 @@ export default observer(function ActivityDetails(){
                 <ActivityDetailedSidebar />
             </Grid.Column>
         </Grid>
-        // <Card fluid>
-        //     <Image src={`/assets/categoryImages/${activity.category}.jpg`} />
-        //     <Card.Content>
-        //     <Card.Header>{activity.title}</Card.Header>
-        //     <Card.Meta>
-        //         <span>{activity.date}</span>
-        //     </Card.Meta>
-        //     <Card.Description>
-        //         {activity.description}
-        //     </Card.Description>
-        //     </Card.Content>
-        //     <Card.Content extra>
-        //         <Button.Group width='2'>
-        //             <Button as={Link} to={`/manage/${activity.id}`} basic color='blue' content='Edit' />
-        //             <Button as={Link} to={`/activities`} basic color='grey' content='Cancel' />
-        //         </Button.Group>
-        //     </Card.Content>
-        // </Card>
     )
 })
