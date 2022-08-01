@@ -4,6 +4,7 @@ using Domain;
 using Microsoft.EntityFrameworkCore;
 using Application.Activities;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
